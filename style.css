@@ -12,7 +12,7 @@ body {
 }
 body #author {
   position: absolute;
-  right: 10%;
+  right: 5%;
   color: #d6d6d6;
   line-height: 20px;
 }
@@ -25,6 +25,49 @@ body #author a {
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
+}
+@media (min-width: 320px) {
+  body #author {
+    margin-top: 8px;
+    padding: 8px;
+    background-color: #d6d6d6;
+    color: #2d2d2d;
+    border-radius: 16px;
+  }
+  body #author p {
+    font-size: 12px;
+  }
+  body #author a {
+    color: #2d2d2d;
+  }
+}
+@media (min-width: 992px) {
+  body #author {
+    margin-top: 8px;
+    padding: 8px;
+    background-color: #2d2d2d;
+    border-radius: 16px;
+  }
+  body #author p {
+    font-size: 12px;
+  }
+  body #author a {
+    color: #d6d6d6;
+  }
+}
+@media (min-width: 1200px) {
+  body #author {
+    margin-top: 0;
+    padding: 0;
+    background-color: unset;
+    border-radius: unset;
+  }
+  body #author p {
+    font-size: 18px;
+  }
+  body #author a {
+    color: #d6d6d6;
+  }
 }
 
 main {
@@ -127,6 +170,23 @@ main {
   color: #2d2d2d;
   background-color: #fe5553;
   box-shadow: 0px 12px 16px #9a8f91;
+}
+@media (min-width: 320px) {
+  #cellphone.light {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  #cellphone.light {
+    display: block;
+  }
+}
+@media (min-width: 320px) {
+  #cellphone {
+    padding: 56px 32px;
+    border-radius: 24px;
+    min-width: 290px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
