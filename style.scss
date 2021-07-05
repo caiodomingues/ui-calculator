@@ -15,6 +15,7 @@ body {
   background-color: $primary;
   display: flex;
   justify-content: center;
+  margin: 48px;
 
   #author {
     position: absolute;
@@ -66,7 +67,7 @@ body {
       }
     }
 
-    @media (min-width: 1200px) {
+    @media (min-width: 1500px) {
       margin-top: 0;
       padding: 0;
       background-color: unset;
@@ -88,7 +89,7 @@ main {
   justify-content: space-around;
   align-items: center;
   width: 850px;
-  height: 100vh;
+  height: 100%;
 }
 
 #cellphone {
